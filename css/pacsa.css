@@ -81,7 +81,9 @@ header{
 
 #menu li a{
 	text-decoration: none;
-	color: #333;
+	color: #bfbfbf;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 #menu li a:hover{
@@ -144,11 +146,11 @@ header{
     border-top:10px solid #000;
     background-position: -630px -70px;
 }
+
 .nosotros:hover{background-position: 0px 0px;}
 .clientes:hover{background-position: -420px 0px; color:white !important;}
 .servicios:hover{background-position: -210px 0px;}
 .contacto:hover{background-position: -630px 0px;}
-
 
 .azul{color:#00a8e9;}
 h2.azul{ border-bottom:1px solid #00a8e9;}
@@ -462,6 +464,10 @@ textarea{
     background-color: white;
 }
 
+.separacionNav{
+    margin-top: 5em;
+}
+
 /*Media Querys*/
 
 @media(max-width:1400px){
@@ -608,6 +614,22 @@ textarea{
         font-size: 20px !important;
     }
 
+    .separacionNav{
+        margin-top: 0em;
+    }
+
+    .nosotros{
+    color: black !important;
+    }
+    .clientes{
+    color: black !important;
+    }
+    .servicios{
+    color: black !important;
+    }
+    .contacto{
+    color: black !important;
+    }
 
 }
 
